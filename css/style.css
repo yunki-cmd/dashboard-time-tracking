@@ -28,26 +28,33 @@ body{
   height: 100%;
 }
 .card__perfil--img img{
-  width: 55px;
-  height: 55px;
+  width: 85px;
+  height: 85px;
 }
 .card__perfil--img{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   background-color: white;
   border-radius: 100%;
+  margin: 1rem 0;
 }
 .card__perfil__center{
   height: 130px;
   margin-top: 20px;
+  position: relative;
+  top: 20px;
+}
+.card__perfil__center span{
+  margin: 1rem 0
 }
 .card__perfil__report{
-  font-size: 8px;
+  font-size: 12px;
   display: block;
   margin: 2rem 0 0 0;
+  color: hsl(235, 45%, 61%);
 }
 .card__prefil__nombre{
   display: block;
